@@ -1,0 +1,22 @@
+name: BXDuyuru
+version: '${version}'
+main: me.furkan.bxduyuru.BXDuyuru
+api-version: '1.20'
+folia-supported: true
+softdepend: [PlaceholderAPI, MiniPlaceholders]
+loadbefore: [PlaceholderAPI, MiniPlaceholders]
+
+commands:
+  duyuru:
+    description: BXDuyuru duyuru sistemini yönetir.
+    usage: /duyuru <mesaj|reload|broadcast|interval|custom|bossbar>
+    aliases: [bxduyuru, announce]
+    permission: bxduyuru.admin
+
+permissions:
+  bxduyuru.admin:
+    description: BXDuyuru yönetici komutlarını kullanır.
+    default: op
+  bxduyuru.ignore:
+    description: Duyuruları görmez.
+    default: false
