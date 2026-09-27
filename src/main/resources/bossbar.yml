@@ -1,0 +1,8 @@
+# BXDuyuru BossBar ayarları
+bossbars:
+  hosgeldin:
+    text: "<gradient:#00C6FF:#0072FF><bold>BXDuyuru</bold> <white>Sunucumuza hoş geldin!"
+    duration: 30
+    show_on_join: false
+    colour: blue
+    notches: 0
