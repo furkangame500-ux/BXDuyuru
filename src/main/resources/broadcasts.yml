@@ -1,0 +1,38 @@
+# BXDuyuru mesajları
+# MiniMessage formatı kullanılır.
+
+auto-broadcasts:
+  hosgeldin:
+    weight: 1
+    message:
+      - ""
+      - "<gradient:#00C6FF:#0072FF><bold>BXDuyuru</bold></gradient> <white>Sunucumuza hoş geldiniz!"
+      - "<gray>Keyifli oyunlar dileriz."
+      - ""
+
+  discord:
+    weight: 1
+    message:
+      - ""
+      - "<aqua><bold>DISCORD</bold> <white>Topluluğumuza katılmak için <yellow>/discord <white>yazabilirsin!"
+      - ""
+
+  destek:
+    weight: 1
+    message:
+      - ""
+      - "<green><bold>DESTEK</bold> <white>Yardım almak için yetkililerimize ulaşabilirsin."
+      - ""
+
+forced-broadcasts:
+  etkinlik:
+    message:
+      - ""
+      - "<gold><bold>ETKİNLİK</bold> <white>Etkinlik başladı! Katılmayı unutma."
+      - ""
+
+  bakim:
+    message:
+      - ""
+      - "<red><bold>DUYURU</bold> <white>Sunucumuz kısa süre içerisinde bakıma alınacaktır."
+      - ""
